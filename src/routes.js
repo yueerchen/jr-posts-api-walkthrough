@@ -1,7 +1,7 @@
-const express = require(express);
-const postRoute = require("./routes/post");
+const express = require("express");
+const postsRoute = require("./routes/post");
 const router = express.Router();
 
-router.use("/posts", postRoute);
+router.use("/posts", postsRoute);
 
 module.exports = router;
